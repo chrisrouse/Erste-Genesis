@@ -7,6 +7,20 @@ define( 'CHILD_THEME_NAME', 'Genesis Sample Theme' );
 define( 'CHILD_THEME_URL', 'http://www.studiopress.com/' );
 define( 'CHILD_THEME_VERSION', '2.0.1' );
 
+//* Ensures child theme styles load last
+//* Source: <http://www.carriedils.com/woocommerce-genesis-important-style/>
+/**
+ * Remove Genesis child theme style sheet
+ * @uses  genesis_meta  <genesis/lib/css/load-styles.php>
+*/
+remove_action( 'genesis_meta', 'genesis_load_stylesheet' );
+
+/**
+ * Enqueue Genesis child theme style sheet at higher priority
+ * @uses wp_enqueue_scripts <http://codex.wordpress.org/Function_Reference/wp_enqueue_style>
+ */
+add_action( 'wp_enqueue_scripts', 'genesis_enqueue_main_stylesheet', 15 );
+
 //* Enqueue Lato Google font
 add_action( 'wp_enqueue_scripts', 'genesis_sample_google_fonts' );
 function genesis_sample_google_fonts() {
