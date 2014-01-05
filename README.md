@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a "getting started" child theme kit for [Genesis Affiliate Link](http://www.shareasale.com/r.cfm?b=460183&u=881820&m=28169&urllink=&afftrack=) [Genesis Non-affiliate Link](http://www.studiopress.com), built by [StudioPress](http://www.studiopress.com/).
+This is a "getting started" child theme kit for Gensis 2.0 Framework ([Affiliate Link](http://www.shareasale.com/r.cfm?b=460183&u=881820&m=28169&urllink=&afftrack=), [Non-affiliate Link](http://www.studiopress.com)), built by [StudioPress](http://www.studiopress.com/).
 
 [Erste Theme](https://github.com/chrisrouse/Erste-for-Genesis) requires the Genesis 2.0 Framework.
 
