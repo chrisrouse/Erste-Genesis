@@ -331,6 +331,8 @@ p {
   margin: 0px 0px 24px;
   margin: 0rem 0rem 2.4rem;
   padding: 0;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
 }
 strong {
   font-weight: 700;
@@ -733,10 +735,14 @@ img.alignright,
   font-size: 36px;
   font-size: 3.6rem;
   line-height: 1;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
 }
 .entry-title a,
 .sidebar .widget-title a {
   color: #333333;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
 }
 .entry-title a:hover {
   color: #666666;
@@ -1072,6 +1078,8 @@ Content Area
 .quote-caption {
   margin-bottom: 26px;
   margin-bottom: 2.6rem;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
 }
 .entry-content ol,
 .entry-content ul {
