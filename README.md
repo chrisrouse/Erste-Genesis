@@ -1,5 +1,7 @@
 # Erste Theme for Genesis
 
+## [Live Demo](http://demo.chrisrouse.us/erste-genesis/)
+
 ## Description
 
 This is a "getting started" child theme kit for Gensis 2.0 Framework ([Affiliate Link](http://www.shareasale.com/r.cfm?b=460183&u=881820&m=28169&urllink=&afftrack=), [Non-affiliate Link](http://www.studiopress.com)), built by [StudioPress](http://www.studiopress.com/).
