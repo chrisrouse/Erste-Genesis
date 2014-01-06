@@ -45,3 +45,10 @@ add_action('genesis_after_footer', 'child_script_managment');
 function child_script_managment() {
     wp_enqueue_script( 'fitvids', get_stylesheet_directory_uri() . '/js/genesis.FitVids.min.js', array('jquery'), '', TRUE);
 }
+
+/** Add scripts & styles*/
+add_action( 'wp_enqueue_scripts', 'load_fontawesome_style', 999 );
+function load_fontawesome_style() {
+      wp_register_style( 'font-awesome', 'http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css' );
+      wp_enqueue_style( 'font-awesome' );
+}

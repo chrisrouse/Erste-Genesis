@@ -13,6 +13,7 @@ This is a "getting started" child theme kit for Gensis 2.0 Framework ([Affiliate
 * Includes individual LESS files for each section of style.css and make use of variables and custom mixins.
 * YouTube and Vimeo videos are now responsive thanks to FitVids.js, which is included. The theme uses the minified version of the JS file, but the non-minified version is included if you need it.
 * Same great features as the Genesis Sample Theme.
+* [FontAwesome 4.0.3](http://fontawesome.io/) is included.
 
 ## Installation
 
